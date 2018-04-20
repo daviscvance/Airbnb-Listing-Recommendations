@@ -31,7 +31,9 @@ This is the prompt for users that help the engine find something suitable to use
 Please see the [Slides](abnb-rec.pdf) for an example!
 
 ### Conclusion
-This simple system responds well to the changes in input form. There are many things that I would like to do to improve this. First I would try finding more information in the pictures using convolutional nueral networks to understand the stylistic components or the tone of the house interior. I would prefer tracking user behavior on every page to understand what aspects are most important to each individual to learn weights implicitly so we would not have the bother the user.
+This simple system responds well to the changes in input form. There are many things that I would like to do to improve this. First I would try finding more information in the pictures using convolutional nueral networks to understand the stylistic components or tone of the house interior. I would prefer tracking user behavior on every page to understand what aspects are most important to each individual to learn weights implicitly so we would not have the bother the user.
 
-[Tableau Visualization](https://public.tableau.com/profile/davis.vance#!/vizhome/Airbnb_50/Dashboard)
+The actual method used at airbnb is a type of sequenced context2vec nueral model that learns embeddings from user sessions that end in a successful booking. I am very thankful to have been inspired by [this](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e) engineering blog post by Mihajlo Grbovic, which came out about the time I was looking for ideas.
+
+Finally, here is a [Tableau Visualization](https://public.tableau.com/profile/davis.vance#!/vizhome/Airbnb_50/Dashboard) which is used to demonstrate the different knobs that a consumer can control.
 ![Tableau Visualization](pics/overall.png "New York City Viz")
