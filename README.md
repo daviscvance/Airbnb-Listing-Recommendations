@@ -32,4 +32,5 @@ Please see the [Slides](abnb-rec.pdf) for an example!
 ### Conclusion
 This simple system responds well to the changes in input form. There are many things that I would like to do to improve this. First I would try finding more information in the pictures using convolutional nueral networks to understand the stylistic components or the tone of the house interior. I would prefer tracking user behavior on every page to understand what aspects are most important to each individual to learn weights implicitly so we would not have the bother the user.
 
+[Tableau Visualization](https://public.tableau.com/profile/davis.vance#!/vizhome/Airbnb_50/Dashboard)
 ![Tableau Visualization](pics/overall.png "New York City Viz")
