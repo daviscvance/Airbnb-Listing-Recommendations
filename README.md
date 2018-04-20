@@ -35,5 +35,5 @@ This simple system responds well to the changes in input form. There are many th
 
 The actual method used at airbnb is a type of sequenced context2vec nueral model that learns embeddings from user sessions that end in a successful booking. I am very thankful to have been inspired by [this](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e) engineering blog post by Mihajlo Grbovic, which came out about the time I was looking for ideas.
 
-Finally, here is a [Tableau Visualization](https://public.tableau.com/profile/davis.vance#!/vizhome/Airbnb_50/Dashboard) which is used to demonstrate the different knobs that a consumer can control.
+Finally, here is a [Tableau Visualization](https://public.tableau.com/profile/davis.vance#!/vizhome/Airbnb_50/Dashboard) to help visualize the different recommendations I was seeing.
 ![Tableau Visualization](pics/overall.png "New York City Viz")
